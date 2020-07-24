@@ -1,0 +1,23 @@
+div#info, #title {
+    width: 336px;
+    margin: auto;
+    text-align: justify;
+}
+
+#title{
+  margin-bottom: 60px;
+}
+
+#content > * {
+  display: flex;
+  flex-direction: column;
+  vertical-align: bottom;
+}
+
+#content {
+  text-align: center;
+}
+
+#info {
+  padding: 15px 40px 15px 40px;
+}
